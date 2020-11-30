@@ -11,7 +11,7 @@ The chaser trajectory is divided into a number of segments, and
 the Hill-Clohessy-Wiltshire (HCW) equations are used to propagate the chaser relative
 motion between any two impulsive Dvs. 
 
-<img align="right" src="https://github.com/LorenzoFederici/RobustTrajectoryDesignbyRL/blob/main/images/traj_compare.png?raw=true" width="500" />
+<img align="right" src="https://github.com/LorenzoFederici/DL-rendezvous-guidance/blob/main/images/traj_MC.png" width="500" />
 
 The environment can be deterministic or stochastic (i.e., with state,
 observation and/or control uncertainties, as well as with
