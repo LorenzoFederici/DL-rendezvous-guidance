@@ -217,7 +217,4 @@ if __name__ == '__main__':
     if RL == True:
         print("Training by RL\n")
         os.system('python main_rendezvous_RL.py --settings ' + settingsRL_file + " --input_model_folder " + out_folder)
-    # else:
-    #     if platform.machine() != "ppc64le":
-    #         os.system("killall -9 python")
     
