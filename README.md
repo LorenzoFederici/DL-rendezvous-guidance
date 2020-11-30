@@ -64,7 +64,10 @@ Now, you can verify that all packages were successfully compiled and installed b
 ```
 If this command executes without any error, then your DL-rendezvous-guidance installation is ready for use.
 
-
+The plots are realized by using gnuplot. For this reason, you may need to install gnuplot on your machine:
+```
+$ sudo apt-get install -y gnuplot
+```
 Eventually, a LaTeX distribution should be installed on the computer in order to correctly visualize all graphs and plots. As an example, to install [Tex Live LaTeX](https://www.tug.org/texlive/) distribution on Ubuntu use the following command.
 ```
 $ sudo apt-get install texlive-full
