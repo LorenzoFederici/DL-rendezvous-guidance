@@ -96,14 +96,14 @@ Specifically:
     The name of the mission file must be specified in the settings file.
     For example, file `MSR.dat` contains the initial and final chaser state for a typical Mars Sample Return mission.
     
-    It is also possible to re-train by RL, with the same or different settings, a pre-trained model. In this case,
+    It is also possible to re-train by RL, with the same or different settings, a pre-trained model (i.e., DNN). In this case,
     the program must be called with the command:
     ```
     (myenv)$ python main_rendezvous_RL.py --settings "settings-name.txt" --input_model_folder "relative-path-to-input-model-folder/"
     ```
     where `settings-name.txt` is the name of the settings file which contains the new training settings, and `reletive-path-to-input-model-folder/` is the relative path (i.e., starting from the cloned repo directory) of the folder which contains the pre-trained model, named `best_model.zip` or `final_model.zip`
 
-    At the end of the training, the final RL-trained model (`final_model.zip`), the best RL-trained model found according to the evaluation callback (`best_model.zip`), together with all other output files, are saved in directory `sol_saved/(i)env_(j)nb_(k)Msteps_(l)/`, where numbers (i), (j) and (k) depends on training settings specified in the settings file, and number (l) depends on how many solutions of the same kind are already contained in `sol_saved/` folder.
+    At the end of the training, the final RL-trained model (`final_model.zip`), the best RL-trained model found according to the evaluation callback (`best_model.zip`), together with all other output files, are saved in directory `sol_saved/(i)env_(j)nb_(k)Msteps_(l)/`, where numbers (i), (j) and (k) depend on training settings specified in the settings file, and number (l) depends on how many solutions of the same kind are already contained in `sol_saved/` folder.
     In presence of a pre-trained model, the outputs of training are instead saved in directory `path-to-input-model-folder/RL/(i)env_(j)nb_(k)Msteps_(l)/`.
     The output RL folder that is obtained by launching the script with settings file `settings_files/settingsRL.txt` can be already found in directory `sol_saved/`.
 
@@ -128,7 +128,7 @@ Specifically:
     ```
     where `settings-BC-name.txt` and `settings-RL-name.txt` are the names of the settings file which contains the BC and RL training settings, respectively.
 
-    At the end of the training, the final BC-trained model (`final_model.zip`), the best BC-trained model found according to the evaluation callback (`best_model.zip`), together with all other output files, are saved in directory `sol_saved/(i)traj_(j)nb_(k)epochs_(h)frac_(l)/`, where numbers (i), (j), (k) and (h) depends on training settings specified in the settings file, and number (l) depends on how many solutions of the same kind are already contained in `sol_saved/` folder.
+    At the end of the training, the final BC-trained model (`final_model.zip`), the best BC-trained model found according to the evaluation callback (`best_model.zip`), together with all other output files, are saved in directory `sol_saved/(i)traj_(j)nb_(k)epochs_(h)frac_(l)/`, where numbers (i), (j), (k) and (h) depend on training settings specified in the settings file, and number (l) depends on how many solutions of the same kind are already contained in `sol_saved/` folder.
     If the re-training by RL is also performed, the outputs of training are instead saved in directory `sol_saved/BC+RL/(i)traj_(j)nb_(k)epochs_(h)frac_(l)/`.
     The output BC folder that is obtained by launching the script with settings file `settings_files/settingsBC.txt` can be already found in directory `sol_saved/`.
 
