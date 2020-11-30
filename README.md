@@ -50,7 +50,7 @@ To correctly set up the code on Linux (Ubuntu), please follow the present instru
 3. Install all required packages in the virtual environment by using pip and the requirement file in the current repository:
 
     ```
-    (myenv)$ cd /path-to-cloned-GitHub-repository/AutonomousRendezvousGuidancebyDL/
+    (myenv)$ cd /path-to-cloned-GitHub-repository/DL-rendezvous-guidance/
     (myenv)$ pip install -r requirements.txt
     ```
 4. Install the gym RL environment with pip:
@@ -62,7 +62,7 @@ Now, you can verify that all packages were successfully compiled and installed b
 ```
 (myenv)$ python main_rendezvous_validate.py
 ```
-If this command executes without any error, then your AutonomousRendezvousGuidancebyDL installation is ready for use.
+If this command executes without any error, then your DL-rendezvous-guidance installation is ready for use.
 
 
 Eventually, a LaTeX distribution should be installed on the computer in order to correctly visualize all graphs and plots. As an example, to install [Tex Live LaTeX](https://www.tug.org/texlive/) distribution on Ubuntu use the following command.
