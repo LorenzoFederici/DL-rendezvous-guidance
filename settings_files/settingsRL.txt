@@ -1,0 +1,39 @@
+load_model                  0
+env_name                    rendezvous-v1
+mission_name                MSR
+Dvmax                       0.005
+omega                       8.5193e-4
+rKOZ                        30
+beta_cone                   20
+obs_type                    0
+random_obs                  0
+randomIC                    1
+stochastic                  1
+termination                 0
+NSTEPS                      30
+eps_schedule                5e-2    5e-4
+lambda_term                 1
+lambda_los                  1
+dr0_max                     1.5   1.5   0.075
+dv0_max                     0   0   0
+sigma_r                     0
+sigma_v                     0
+sigma_u_rot                 0
+sigma_u_norm                0
+MTE                         0
+pr_MTE                      0
+max_MTE                     0
+acc_max                     1e-8   1e-8   5e-10
+num_cpu                     8
+algorithm                   PPO
+learning_rate_in            2.5e-4
+clip_range_in               0.3
+learning_rate               lin
+clip_range                  lin
+ent_coef                    4.75e-08
+gamma                       0.9999
+lam                         0.99
+noptepochs                  30
+nminibatches                4
+policy                      CustomPolicy_3_var
+niter                       96e6

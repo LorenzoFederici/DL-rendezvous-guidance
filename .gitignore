@@ -1,0 +1,10 @@
+.vscode/
+sol_*/
+StdOutput*/
+expert_traj/*/
+__pycache__/
+custom_modules/__pycache__/
+gym-rendezvous/gym_rendezvous/__pycache__/
+gym-rendezvous/gym_rendezvous/envs/__pycache__/
+gym-rendezvous/gym_rendezvous.egg-info/
+.DS_Store
