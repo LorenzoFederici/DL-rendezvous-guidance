@@ -38,7 +38,7 @@ expert_traj = False
 
 #Input settings file
 parser = argparse.ArgumentParser()
-parser.add_argument('--folder', type=str, default="sol_saved/cone20-S1/100traj_4nb_100epochs_80frac_3/", \
+parser.add_argument('--folder', type=str, default="sol_saved/-1traj_8nb_500epochs_95frac_1/", \
     help='Input model folder')
 args = parser.parse_args()
 settings_file = args.folder + "settings.txt"

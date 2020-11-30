@@ -36,7 +36,7 @@ graphs = True
 
 #Input settings file
 parser = argparse.ArgumentParser()
-parser.add_argument('--folder', type=str, default="sol_saved/sol_1/", \
+parser.add_argument('--folder', type=str, default="sol_saved/-1traj_8nb_500epochs_95frac_1/", \
     help='Input model folder')
 args = parser.parse_args()
 settings_file = args.folder + "settings.txt"

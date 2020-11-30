@@ -1,0 +1,34 @@
+env_name                    rendezvous-v1
+mission_name                MSR
+Dvmax                       0.005
+omega                       8.5193e-4
+rKOZ                        30
+beta_cone                   20
+obs_type                    0
+random_obs                  0
+randomIC                    1
+stochastic                  1
+termination                 1
+NSTEPS                      30
+eps_schedule                5e-4
+lambda_term                 1
+lambda_los                  1
+dr0_max                     1.5   1.5   0.075
+dv0_max                     0   0   0
+sigma_r                     0
+sigma_v                     0
+sigma_u_rot                 0
+sigma_u_norm                0
+MTE                         0
+pr_MTE                      0
+max_MTE                     0
+acc_max                     1e-8   1e-8   5e-10
+expert_name                 cone20-eyelash-S1
+n_batches_BC                8
+traj_limit                  -1
+train_frac                  0.95
+n_epochs                    500
+lr                          1e-4
+adam_eps                    1e-8
+policy                      CustomPolicy_3_var
+RL_training                 0

@@ -218,12 +218,6 @@ class RendezvousEnv(gym.Env):
         self.observation_space = spaces.Box(x_lb, x_ub, dtype=np.float64)
 
         """ ACTION ASPACE """
-        # if self.deterministic:
-        #     # Lower bounds
-        #     a_lb = np.array([-1., -1., 0.])
-        #     # Upper bounds
-        #     a_ub = np.array([1., 1., 0.])
-        # else:
         # Lower bounds
         a_lb = np.array([-1., -1., -1.])
         # Upper bounds

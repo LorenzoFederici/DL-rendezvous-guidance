@@ -24,7 +24,7 @@ pr_MTE                      0
 max_MTE                     0
 acc_max                     1e-8   1e-8   5e-10
 expert_name                 cone20-eyelash-S1
-n_batches_BC                4
+n_batches_BC                8
 traj_limit                  -1
 train_frac                  0.95
 n_epochs                    500

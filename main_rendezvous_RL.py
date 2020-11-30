@@ -39,11 +39,11 @@ if __name__ == '__main__':
 
     #Input settings file
     parser = argparse.ArgumentParser()
-    parser.add_argument('--settings', type=str, default="settings1.txt", \
+    parser.add_argument('--settings', type=str, default="settingsRL.txt", \
         help='Input settings file')
     parser.add_argument('--envs', type=int, default=-1, \
         help='Number of environments')
-    parser.add_argument('--input_model_folder', type=str, default="sol_saved/sol_1/", \
+    parser.add_argument('--input_model_folder', type=str, default="sol_saved/-1traj_8nb_500epochs_95frac_1/", \
         help='Folder of the input BC model to load')
     args = parser.parse_args()
     settings_file = "./settings_files/" + args.settings

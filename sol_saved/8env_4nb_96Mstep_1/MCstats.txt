@@ -1,0 +1,27 @@
+                 #	   Dv [km/s]	     dr [km]	   dv [km/s]	      reward
+              mean	   0.0058719	   0.0004048	   0.0000000	  -0.0391757
+             sigma	   0.0012362	   0.0001620	   0.0000000	   0.0082407
+
+           # Total DV
+                 #	     1-sigma	     2-sigma	     3-sigma
+      eps_lvl[m/s]	   6.3196178	   8.3210502	   9.1618630
+
+# Terminal constraints
+                 #	    dr<=5e-4	    dv<=5e-4	  both<=5e-4	  both<=1e-3	  both<=5e-3
+             SR[%]	       76.20	      100.00	       76.20	       99.60	       100.0
+                 #	     1-sigma	     2-sigma	     3-sigma
+           eps_lvl	   0.0004634	   0.0007115	   0.0010248
+
+     # LOS constraint
+                 #	         <=0	      <=5e-4	      <=1e-3	      <=5e-3
+     SR[%](2-norm)	      100.00	      100.00	      100.00	      100.00
+   SR[%](inf-norm)	      100.00	      100.00	      100.00	      100.00
+                 #	     1-sigma	     2-sigma	     3-sigma
+   eps_lvl(2-norm)	   0.0000000	   0.0000000	   0.0000000
+ eps_lvl(inf-norm)	   0.0000000	   0.0000000	   0.0000000
+                 #	    min [km]	    max [km]	   mean [km]
+   err_los(2-norm)	   0.0000000	   0.0000000	   0.0000000
+ err_los(inf-norm)	   0.0000000	   0.0000000	   0.0000000
+
+    max.gamma[deg]	  19.9161936
+

@@ -34,9 +34,9 @@ if __name__ == '__main__':
 
     #Input settings file
     parser = argparse.ArgumentParser()
-    parser.add_argument('--settings_BC', type=str, default="settingsBC1.txt", \
+    parser.add_argument('--settings_BC', type=str, default="settingsBC.txt", \
         help='Input BC settings file')
-    parser.add_argument('--settings_RL', type=str, default="settingsRL1.txt", \
+    parser.add_argument('--settings_RL', type=str, default="settingsRL.txt", \
         help='Input RL settings file')    
     args = parser.parse_args()
     settings_file = "./settings_files/" + args.settings_BC
