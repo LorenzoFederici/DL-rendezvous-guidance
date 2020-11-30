@@ -9,7 +9,7 @@ the chaser must move through during the final part of the maneuver,
 which guarantees that the chaser spacecraft is always visible from the target.
 The chaser trajectory is divided into a number of segments, and 
 the Hill-Clohessy-Wiltshire (HCW) equations are used to propagate the chaser relative
-motion between any two impulsive $\Delta v$s. 
+motion between any two impulsive Dvs. 
 
 <img align="right" src="https://github.com/LorenzoFederici/DL-rendezvous-guidance/blob/main/images/traj_MC.png" width="500" />
 
