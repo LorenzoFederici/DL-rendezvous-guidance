@@ -1,6 +1,6 @@
 # Deep Learning Techniques for Autonomous Spacecraft Guidance during Proximity Operations
 
-The repositories accompanies the following publication"
+The repositories accompanies the following publication
 
 L. Federici, B. Benedikter, and A. Zavoli, "Deep Learning Techniques for Autonomous Spacecraft Guidance During Proximity Operations", Journal of Spacecraft and Rockets, 58(6), 1774-1785, 2021.[DOI:10.2514/1.A35076](https://doi.org//10.2514/1.A35076)
 
