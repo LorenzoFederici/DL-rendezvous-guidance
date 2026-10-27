@@ -1,5 +1,9 @@
 # Deep Learning Techniques for Autonomous Spacecraft Guidance during Proximity Operations
 
+The repositories accompanies the following publication"
+
+L. Federici, B. Benedikter, and A. Zavoli, "Deep Learning Techniques for Autonomous Spacecraft Guidance During Proximity Operations", Journal of Spacecraft and Rockets, 58(6), 1774-1785, 2021.[DOI:10.2514/1.A35076](https://doi.org//10.2514/1.A35076)
+
 This code implements a Deep Learning (DL) framework to deal with the autonomous guidance of a chaser spacecraft during a minimum-fuel, time-fixed, impulsive linear rendezvous maneuver,
 with fixed initial and final relative conditions.
 Specifically, the aim of the mission is to come in close proximity of a passive target body, starting from given initial conditions.
